@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Exit immediately if a command fails
+set -e
+
+echo "=================================================="
+echo "      Login to Azure      "
+echo "=================================================="
+echo ""
+
+# Login to Azure using device code authentication
+az login --use-device-code
